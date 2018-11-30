@@ -2,7 +2,7 @@
 
 const config = {
   app: {
-    port: "3000",
+    port: "3100",
     host: "localhost",
     api_key: "1234",
     backup: false
