@@ -1,0 +1,50 @@
+[
+  {
+    "timeout": {
+      "nivel": {
+        "1": {
+          "prioridad": {
+            "normal": 2000,
+            "lento": 4000,
+            "nohay": 500
+          }
+        },
+        "2": {
+          "prioridad": {
+            "normal": 4000,
+            "lento": 8000,
+            "nohay": 500
+          }
+        },
+        "3": {
+          "prioridad": {
+            "normal": 6000,
+            "lento": 12000,
+            "nohay": 500
+          }
+        },
+        "4": {
+          "prioridad": {
+            "normal": 8000,
+            "lento": 16000,
+            "nohay": 500
+          }
+        },
+        "5": {
+          "prioridad": {
+            "normal": 10000,
+            "lento": 20000,
+            "nohay": 500
+          }
+        },
+        "6": {
+          "prioridad": {
+            "normal": 14000,
+            "lento": 24000,
+            "nohay": 500
+          }
+        }
+      }
+    }
+  }
+]

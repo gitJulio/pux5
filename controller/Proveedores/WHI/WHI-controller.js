@@ -1,0 +1,19 @@
+var toJson = require('./toJson');
+var getVinDecode = require('./getVinDecode');
+var BuyersGuideSearch = require('./BuyersGuideSearch');
+var VehicleIdSearch = require('./VehicleIdSearch');
+var MenuNodesLookup = require('./MenuNodesLookup');
+var getRelacionados = require('./getRelacionados');
+var getArticles = require('./ApplicationSearch');
+var SmartPageDataSearch = require('./SmartPageDataSearch');
+var ApplicationSearchByFilter = require('./ApplicationSearchByFilter');
+
+exports.toJson = toJson.toJson;
+exports.getVinDecode = getVinDecode.getVinDecode;
+exports.BuyersGuideSearch = BuyersGuideSearch.BuyersGuideSearch;
+exports.VehicleIdSearch = VehicleIdSearch.VehicleIdSearch;
+exports.MenuNodesLookup = MenuNodesLookup.MenuNodesLookup;
+exports.getRelacionados = getRelacionados.getRelacionados;
+exports.ApplicationSearch = getArticles.ApplicationSearch;
+exports.SmartPageDataSearch = SmartPageDataSearch.SmartPageDataSearch;
+exports.ApplicationSearchByFilter = ApplicationSearchByFilter.ApplicationSearchByFilter;

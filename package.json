@@ -1,0 +1,32 @@
+{
+  "name": "api-catalogo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "colors": "^1.3.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "fast-xml-parser": "^3.12.5",
+    "fetch": "^1.1.0",
+    "file-system": "^2.2.2",
+    "he": "^1.2.0",
+    "http-errors": "~1.6.2",
+    "image-size": "^0.6.3",
+    "jwt-simple": "^0.5.1",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4",
+    "pg-promise": "^8.4.6",
+    "query-string": "^6.1.0",
+    "request": "^2.88.0",
+    "request-image-size": "^2.1.0",
+    "utf8": "^3.0.0"
+  }
+}
